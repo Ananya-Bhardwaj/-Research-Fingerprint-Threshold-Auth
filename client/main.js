@@ -10,7 +10,7 @@ signupButton.addEventListener("click", signup)
 loginButton.addEventListener("click", login)
 closeButton.addEventListener("click", () => modal.close())
 
-const SERVER_URL = "http://localhost:3000"
+const SERVER_URL = "https://435c-81-17-122-71.ngrok-free.app/"
 
 async function signup() {
   const email = emailInput.value
